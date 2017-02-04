@@ -1,0 +1,16 @@
+{
+  "name": "sass-concepts",
+  "version": "1.0.0",
+  "description": "This project is build to learn sass concepts from scratch ",
+  "main": "scss/main.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-sass --include-path scss scss/main.scss public/css/main.css --sass-watch",
+    "start-sass": "node-sass --include-path sass scss/main.sass public/css/main.css --sass-watch"
+  },
+  "keywords": [
+    "sass-basics"
+  ],
+  "author": "raviprajna",
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "mdl-css-only",
+  "version": "1.0.0",
+  "description": "mdl with css only",
+  "main": "main.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-sass --include-path scss scss/main.scss public/css/main.css --sass-watch"
+  },
+  "keywords": [
+    "mdl-css-only"
+  ],
+  "author": "raviprajna",
+  "license": "ISC"
+}

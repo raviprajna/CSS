@@ -1,0 +1,14 @@
+@import 'variables';
+@import "nesting";
+@import "mixin";
+@import "extends";
+body {
+  margin: 0;
+  background-color: $primary-color + $primary-color;
+font: 100% $font-stack;
+
+}
+
+nav {
+	@include border-radius($border-radius * 2);
+}

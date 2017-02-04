@@ -1,0 +1,30 @@
+$primary-color : '#000 !important';
+$secondary-color : '#000 !important';
+$third-color : '#fff !important';
+
+$primary-bg-color : '#ffc107 !important';
+$secondary-bg-color : '#00ffff !important';
+$third-bg-color : '#2196F3 !important';
+
+$primary-text-color : $primary-bg-color;
+$secondary-text-color : $secondary-bg-color;
+$third-text-color : $third-bg-color;
+
+$primary-border-color : $primary-bg-color;
+$secondary-border-color : $secondary-bg-color;
+$third-border-color : $third-bg-color;
+
+
+.w3-amber,.w3-hover-amber:hover{color:$primary-color;background-color:$primary-bg-color}
+.w3-aqua,.w3-hover-aqua:hover{color:$secondary-color;background-color:$secondary-bg-color}
+.w3-blue,.w3-hover-blue:hover{color:$third-color;background-color:$third-bg-color}
+/* Text Color */
+.w3-text-amber,.w3-hover-text-amber:hover{color:$primary-text-color}
+.w3-text-aqua,.w3-hover-text-aqua:hover{color:$secondary-text-color}
+.w3-text-blue,.w3-hover-text-blue:hover{color:$third-text-color}
+/* Border Color */
+.w3-border-amber,.w3-hover-border-amber:hover{border-color:$primary-border-color}
+.w3-border-aqua,.w3-hover-border-aqua:hover{border-color:$secondary-border-color}
+.w3-border-blue,.w3-hover-border-blue:hover{border-color:$third-border-color}
+
+
